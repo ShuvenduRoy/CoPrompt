@@ -3,19 +3,19 @@
 #cd ../..
 
 # custom config
-DATA={YOUR_DATA_PATH}
+DATA=data/
 TRAINER=CoPrompt
 
 DATASET=$1
 SEED=$2
 EXP_NAME=$3
 
-CFG=vit_b16_c2_ep5_batch4_2ctx
+CFG=coprompt
 SHOTS=16
 LOADEP=$4
 SUB=new
 
-COMMON_DIR=${DATASET}/shots_${SHOTS}/${TRAINER}/${CFG}_randaug/seed${SEED}
+COMMON_DIR=${DATASET}/shots_${SHOTS}/${TRAINER}/${CFG}/seed${SEED}
 MODEL_DIR=output/${EXP_NAME}/train_base/${COMMON_DIR}
 DIR=output/${EXP_NAME}/test_${SUB}/${COMMON_DIR}
 

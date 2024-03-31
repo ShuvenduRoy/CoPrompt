@@ -5,3 +5,4 @@ data/
 .DS_Store
 .vscode/
 output/
+cache/

@@ -3,14 +3,14 @@
 #cd ../..
 
 # custom config
-DATA={YOUR_DATA_PATH}
+DATA=data/
 TRAINER=CoPrompt
 
 DATASET=$1
 SEED=$2
 EXP_NAME=$3 # base2new
 
-CFG=vit_b16_c2_ep5_batch4_2ctx_randaug
+CFG=coprompt
 SHOTS=16
 
 DIR=output/${EXP_NAME}/train_base/${DATASET}/shots_${SHOTS}/${TRAINER}/${CFG}/seed${SEED}
