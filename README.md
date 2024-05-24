@@ -2,9 +2,9 @@
 
 Official implementation of our ICLR 2024 paper:
 
-> [**Consistency-guided Prompt Learning for Vision-Language Models**](https://arxiv.org/abs/2306.01195)
-> Shuvendu Roy, Ali Etemad
-> \*In Proceedings of the International Conference on Learning Representation (ICLR 2024)
+> [**Consistency-guided Prompt Learning for Vision-Language Models**](https://arxiv.org/abs/2306.01195) <br>
+> Shuvendu Roy, Ali Etemad<br>
+> In Proceedings of the International Conference on Learning Representation (ICLR 2024)
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2306.01195.pdf)
 
